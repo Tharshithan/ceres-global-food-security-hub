@@ -10,7 +10,7 @@
 ---
 
 ## 🚀 Live Demo
-**View the project live here:** [https://YOUR_GITHUB_USERNAME.github.io/ceres-global-food-security-hub/](https://YOUR_GITHUB_USERNAME.github.io/ceres-global-food-security-hub/)
+**View the project live here:** [https://YOUR_GITHUB_USERNAME.github.io/ceres-global-food-security-hub/](https://github.com/Tharshithan/ceres-global-food-security-hub.git)
 
 ---
 
@@ -51,5 +51,5 @@ Ensure you have [Node.js](https://nodejs.org/) installed on your system.
 
 ### 2. Clone the Repository
 ```bash
-git clone [https://github.com/YOUR_USERNAME/ceres-global-food-security-hub.git](https://github.com/YOUR_USERNAME/ceres-global-food-security-hub.git)
+git clone [[https://github.com/Tharshithan/ceres-global-food-security-hub.git])
 cd ceres-global-food-security-hub
