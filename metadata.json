@@ -1,0 +1,7 @@
+{
+  "name": "Ceres: Global Food Security Hub",
+  "description": "A professional agri-intelligence and distribution platform designed to optimize global food systems, reduce waste, and empower smallholder farmers through predictive insights and logistics coordination.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

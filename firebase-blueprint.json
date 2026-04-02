@@ -1,0 +1,28 @@
+{
+  "entities": {
+    "FarmerProfile": {
+      "title": "Farmer Profile",
+      "description": "Digital identity and farm records for smallholder farmers.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "uid": { "type": "string", "description": "The authenticated user ID of the farmer." },
+        "name": { "type": "string" },
+        "farmName": { "type": "string" },
+        "location": { "type": "string" },
+        "crops": { "type": "array", "items": { "type": "string" } },
+        "contactEmail": { "type": "string", "format": "email" },
+        "contactPhone": { "type": "string" },
+        "farmSize": { "type": "number" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["uid", "name", "farmName", "location", "crops", "contactEmail", "farmSize", "createdAt"]
+    }
+  },
+  "firestore": {
+    "/farmerProfiles/{profileId}": {
+      "schema": "FarmerProfile",
+      "description": "Collection of farmer profiles, secured by UID."
+    }
+  }
+}
